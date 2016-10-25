@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:showIn="@layout/content_main">
+    <TableRow>
+        <TextView
+            android:text="Area"
+            style="@style/CustomTable.Header" />
+        <TextView
+            android:text="Tiempo"
+            style="@style/CustomTable.Header" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Curso Android"
+            style="@style/CustomTable.Row" />
+        <TextView
+            android:text="1 dia"
+            style="@style/CustomTable.Row" />
+    </TableRow>
+</merge>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cl.enexo.aboutkevin.ContactActivity">
+    <TextView
+        android:id="@+id/tv_linkedin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="16dp"
+        android:drawableRight="@mipmap/ic_linkedin_black_24dp"
+        android:text="Linkedin"
+        android:textColor="#000"
+        android:textSize="24sp" />
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="?attr/selectableItemBackground"
+        android:drawableLeft="@mipmap/ic_settings_cell_black_24dp"
+        android:padding="16dp"
+        android:text="LLamar a +569 42102120"
+        android:textColor="#000"
+        android:textSize="24sp" />
+</LinearLayout>
