@@ -21,6 +21,7 @@ public class ContactActivity extends AppCompatActivity {
                 i.setData(Uri.parse("http://cl.linkedin.com/in/kevin-fernandez-75bb97111"));
                 startActivity(i);
                 //https://www.linkedin.com
+                //aa
             }
         });
         tvfont.setOnClickListener(new View.OnClickListener() {
